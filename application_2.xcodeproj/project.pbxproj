@@ -9,9 +9,11 @@
 /* Begin PBXBuildFile section */
 		C93E0B7522862AEA001DF9D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93E0B7422862AEA001DF9D3 /* AppDelegate.swift */; };
 		C93E0B7722862AEA001DF9D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93E0B7622862AEA001DF9D3 /* ViewController.swift */; };
-		C93E0B7A22862AEA001DF9D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93E0B7822862AEA001DF9D3 /* Main.storyboard */; };
+		C93E0B7A22862AEA001DF9D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93E0B7822862AEA001DF9D3 /* Main.storyboard */; settings = {ASSET_TAGS = (Triangle, ); }; };
 		C93E0B7C22862AF2001DF9D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93E0B7B22862AF2001DF9D3 /* Assets.xcassets */; };
 		C93E0B7F22862AF2001DF9D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93E0B7D22862AF2001DF9D3 /* LaunchScreen.storyboard */; };
+		C93E0B8B2286C6D7001DF9D3 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93E0B8A2286C6D7001DF9D3 /* Triangle.swift */; };
+		C93E0B8D2286CC44001DF9D3 /* Polygon_10.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93E0B8C2286CC44001DF9D3 /* Polygon_10.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C93E0B7B22862AF2001DF9D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C93E0B7E22862AF2001DF9D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C93E0B8022862AF2001DF9D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C93E0B8A2286C6D7001DF9D3 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		C93E0B8C2286CC44001DF9D3 /* Polygon_10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polygon_10.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,40 @@
 		C93E0B7322862AEA001DF9D3 /* application_2 */ = {
 			isa = PBXGroup;
 			children = (
+				C93E0B892286C5F7001DF9D3 /* Controller */,
+				C93E0B882286C5A3001DF9D3 /* View */,
+				C93E0B872286C574001DF9D3 /* Model */,
 				C93E0B7422862AEA001DF9D3 /* AppDelegate.swift */,
-				C93E0B7622862AEA001DF9D3 /* ViewController.swift */,
-				C93E0B7822862AEA001DF9D3 /* Main.storyboard */,
-				C93E0B7B22862AF2001DF9D3 /* Assets.xcassets */,
-				C93E0B7D22862AF2001DF9D3 /* LaunchScreen.storyboard */,
 				C93E0B8022862AF2001DF9D3 /* Info.plist */,
 			);
 			path = application_2;
+			sourceTree = "<group>";
+		};
+		C93E0B872286C574001DF9D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C93E0B8A2286C6D7001DF9D3 /* Triangle.swift */,
+				C93E0B8C2286CC44001DF9D3 /* Polygon_10.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C93E0B882286C5A3001DF9D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C93E0B7D22862AF2001DF9D3 /* LaunchScreen.storyboard */,
+				C93E0B7B22862AF2001DF9D3 /* Assets.xcassets */,
+				C93E0B7822862AEA001DF9D3 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C93E0B892286C5F7001DF9D3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C93E0B7622862AEA001DF9D3 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +120,9 @@
 		C93E0B6922862AE9001DF9D3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					Triangle,
+				);
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Lizaveta Rudzko";
@@ -135,8 +168,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C93E0B8B2286C6D7001DF9D3 /* Triangle.swift in Sources */,
 				C93E0B7722862AEA001DF9D3 /* ViewController.swift in Sources */,
 				C93E0B7522862AEA001DF9D3 /* AppDelegate.swift in Sources */,
+				C93E0B8D2286CC44001DF9D3 /* Polygon_10.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
