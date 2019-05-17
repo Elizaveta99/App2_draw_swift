@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		C93E0B7522862AEA001DF9D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93E0B7422862AEA001DF9D3 /* AppDelegate.swift */; };
 		C93E0B7722862AEA001DF9D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93E0B7622862AEA001DF9D3 /* ViewController.swift */; };
-		C93E0B7A22862AEA001DF9D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93E0B7822862AEA001DF9D3 /* Main.storyboard */; settings = {ASSET_TAGS = (Triangle, ); }; };
+		C93E0B7A22862AEA001DF9D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93E0B7822862AEA001DF9D3 /* Main.storyboard */; settings = {ASSET_TAGS = (Polygon_10, Triangle, ); }; };
 		C93E0B7C22862AF2001DF9D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93E0B7B22862AF2001DF9D3 /* Assets.xcassets */; };
 		C93E0B7F22862AF2001DF9D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93E0B7D22862AF2001DF9D3 /* LaunchScreen.storyboard */; };
 		C93E0B8B2286C6D7001DF9D3 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93E0B8A2286C6D7001DF9D3 /* Triangle.swift */; };
@@ -121,6 +121,7 @@
 			isa = PBXProject;
 			attributes = {
 				KnownAssetTags = (
+					Polygon_10,
 					Triangle,
 				);
 				LastSwiftUpdateCheck = 1010;
