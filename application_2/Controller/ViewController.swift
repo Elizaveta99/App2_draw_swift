@@ -14,14 +14,21 @@ extension UIView {
         UIView.animate(withDuration: duration, delay: 5.0, options: options, animations: {
             self.transform = self.transform.rotated(by: CGFloat.pi)
         }, completion: nil)
-    }
-    
-    func scale(duration: TimeInterval, options: UIView.AnimationOptions) {
+        
+        
         self.transform = CGAffineTransform.identity
-        UIView.animate(withDuration: duration, delay: 7.0, options: [.curveLinear], animations: { () -> Void in
-            self.transform = CGAffineTransform(scaleX: 2.0, y: 2.0)
+        UIView.animate(withDuration: duration, delay: 5.0, options: [.curveLinear], animations: { () -> Void in
+            self.transform = CGAffineTransform(scaleX: 0.5, y: 0.5)
         }) { (animationCompleted: Bool) -> Void in
         }
+        
+    }
+
+    
+    func move() {
+            self.alpha = 0.5;
+            self.frame = CGRect(x: 10, y: self.frame.origin.y, width: self.frame.width, height: self.frame.height)
+
     }
     
 }
@@ -34,8 +41,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         
         self.viewTriangle.rotate180(duration: 0.5, options: [])
-
-        self.viewPolygon_10.scale(duration: 0.5, options: [])
+        
+        self.viewPolygon_10.move()
         
         super.viewDidLoad()
     }
