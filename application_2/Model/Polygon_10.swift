@@ -11,12 +11,6 @@ import UIKit
 @IBDesignable class Polygon_10: UIView {
 
     override func draw(_ rect: CGRect) {
-        
-//        let width = bounds.size.width/3.0 - 40.0
-//        let height = bounds.size.height - 40.0
-//        let size = max (min (width, height), 150.0)
-//        let rect = CGRect(x: 40.0, y: bounds.midY - 300, width: size, height: size)
-        
         let width = bounds.size.width
         let height = bounds.size.height
         let size = min (width, height)

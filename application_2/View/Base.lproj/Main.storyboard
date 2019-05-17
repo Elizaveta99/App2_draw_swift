@@ -19,12 +19,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tzQ-Pa-GqF" customClass="Triangle" customModule="application_2" customModuleProvider="target">
-                                <rect key="frame" x="10" y="53" width="394" height="391"/>
+                                <rect key="frame" x="10" y="53" width="394" height="352"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WjU-u1-2dH" customClass="Polygon_10" customModule="application_2" customModuleProvider="target">
-                                <rect key="frame" x="10" y="443" width="394" height="412"/>
+                                <rect key="frame" x="10" y="413" width="394" height="400"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
@@ -34,6 +34,8 @@
                     </view>
                     <connections>
                         <outlet property="view" destination="tzQ-Pa-GqF" id="tr1-bg-ILM"/>
+                        <outlet property="viewPolygon_10" destination="WjU-u1-2dH" id="ZCb-Vs-vnX"/>
+                        <outlet property="viewTriangle" destination="tzQ-Pa-GqF" id="hw1-LQ-1WQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
